@@ -1,0 +1,18 @@
+{
+  "release": "MP-2026.06",
+  "patches": [
+    {"id": "MP-01", "component": "core-gateway", "kind": "feature", "risk": "medium"},
+    {"id": "MP-02", "component": "core-gateway", "kind": "fix", "risk": "low"},
+    {"id": "MP-03", "component": "auth-service", "kind": "fix", "risk": "high"},
+    {"id": "MP-04", "component": "billing-api", "kind": "breaking", "risk": "low"},
+    {"id": "MP-05", "component": "checkout-ui", "kind": "feature", "risk": "medium"},
+    {"id": "MP-06", "component": "checkout-ui", "kind": "fix", "risk": ""},
+    {"id": "MP-07", "component": "inventory-svc", "kind": "feature", "risk": "medium"},
+    {"id": "MP-08", "component": "search-api", "kind": "feature", "risk": "medium"},
+    {"id": "MP-09", "component": "catalog-svc", "kind": "fix", "risk": "low"},
+    {"id": "MP-10", "component": "notify-worker", "kind": "feature", "risk": "medium"},
+    {"id": "MP-11", "component": "notify-worker", "kind": "feature", "risk": "medium"},
+    {"id": "MP-12", "component": "metrics-pipe", "kind": "fix", "risk": "medium"},
+    {"id": "MP-13", "component": "risk-engine", "kind": "feature", "risk": "high"}
+  ]
+}
