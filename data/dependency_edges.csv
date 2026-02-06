@@ -1,0 +1,15 @@
+Dependent,Dependency,CriticalityWeight
+core-gateway,auth-service,4
+core-gateway,billing-api,4
+core-gateway,search-api,2
+auth-service,risk-engine,3
+billing-api,auth-service,2
+billing-api,metrics-pipe,1
+checkout-ui,search-api,3
+checkout-ui,catalog-svc,3
+checkout-ui,billing-api,2
+inventory-svc,metrics-pipe,1
+search-api,catalog-svc,2
+catalog-svc,metrics-pipe,1
+notify-worker,metrics-pipe,1
+risk-engine,metrics-pipe,2
