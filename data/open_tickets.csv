@@ -1,0 +1,17 @@
+TicketID,Component,Severity,Status,CreatedAt,Tags
+TK-201,checkout-ui,P2,Open,2026-02-02,ui
+TK-202,checkout-ui,P2,Open,2026-01-30,ui|bug
+TK-203,checkout-ui,P1,In Progress,2026-01-23,bug
+TK-204,checkout-ui,P2,Open,2026-01-23,bug
+TK-205,core-gateway,P2,Open,2026-01-28,perf
+TK-206,core-gateway,P1,In Progress,2026-01-25,latency
+TK-207,auth-service,P0,Open,2026-01-12,security|auth
+TK-208,auth-service,P2,Done,2026-01-08,docs
+TK-209,billing-api,P2,In Progress,2026-01-20,payment
+TK-210,inventory-svc,P2,Open,2026-01-18,bug
+TK-211,inventory-svc,P2,In Progress,2026-01-17,bug
+TK-212,search-api,P1,Open,2026-01-22,relevance
+TK-213,catalog-svc,P2,Open,2026-01-16,content
+TK-214,notify-worker,P2,Open,2026-02-05,ops
+TK-215,metrics-pipe,P1,Open,2026-01-14,data
+TK-216,risk-engine,P0,In Progress,2026-01-19,security|fraud
