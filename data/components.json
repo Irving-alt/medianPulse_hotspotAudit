@@ -1,0 +1,14 @@
+{
+  "components": [
+    {"component": "core-gateway", "tier": "Tier0", "owner": "platform"},
+    {"component": "auth-service", "tier": "Tier0", "owner": "security"},
+    {"component": "risk-engine", "tier": "Tier0", "owner": "risk"},
+    {"component": "billing-api", "tier": "Tier1", "owner": "finance"},
+    {"component": "checkout-ui", "tier": "Tier1", "owner": "commerce"},
+    {"component": "inventory-svc", "tier": "Tier1", "owner": "supply"},
+    {"component": "search-api", "tier": "Tier1", "owner": "commerce"},
+    {"component": "catalog-svc", "tier": "Tier1", "owner": "commerce"},
+    {"component": "notify-worker", "tier": "Tier2", "owner": "platform"},
+    {"component": "metrics-pipe", "tier": "Tier2", "owner": "data"}
+  ]
+}
